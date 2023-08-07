@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* You can change the background color as per your preference */
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .ai-card {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(45deg, #FF6B6B, #556270); /* Change the gradient colors as per your preference */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ai-card:hover {
+    background-color: #4ECDC4; /* Change the hover color as per your preference */
+    /* Enlarge the AI cards on hover */
+  transform: scale(1.05);
+  /* Add more prominent box shadow on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  .redirect-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #4ECDC4; /* Change the button color as per your preference */
+    border-radius: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    position: relative;
+  }
+  
+  .redirect-button:hover {
+    color: #556270; /* Change the hover color as per your preference */
+    background-color: Blue;
+    /* background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23ffffff" viewBox="0 0 16 16"><path d="M5.354 2.646a.5.5 0 0 1 .793.195L8 5.293l1.853-2.452a.5.5 0 0 1 .793-.195l.658.658a.5.5 0 0 1 .195.793l-3 4a.5.5 0 0 1-.39.195h-.319a.5.5 0 0 1-.39-.195l-3-4a.5.5 0 0 1 .195-.793l.658-.658z"/></svg>'); */
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 25px;
+    
+  }
+  
+  .redirect-button:hover::after {
+    font-family: "Font Awesome 6 Solid"; /* Font Awesome Solid style */
+    content: "\f178"; /* Unicode of the arrow-right icon */
+    margin-left: 10px;
+    color: #fff;
+    opacity: 1;
+  right: 0; 
+  animation: slideInArrow 0.3s forwards;
+  }
+  
+  @keyframes slideInArrow {
+    to {
+      right: 5px; /* Slide the arrow icon to the final position */
+      opacity: 1;
+    }
+  }
