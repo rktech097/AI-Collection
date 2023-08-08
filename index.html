@@ -1,178 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Shortcuts</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
->
-<style>
-  *{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-
-  }
-    body {
-      display: flex;      
-      background-color: #f0f0f0;
-      margin: 0;
-    }
-
-    .container {
-      width: 500px;
-      height: 500px;
-      background: linear-gradient(135deg, #00a8e8, #0087b3);
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      color: #fff;
-      text-align: center;
-      padding: 10px;
-      margin: 10px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease; 
-     
-    }
-
-    /* .ai-card{
-      height: 170px;
-      padding: 20px;
-      text-align: center;
-      border-radius: 5px;
-
-    }
-
-    .ai-card h2{
-      padding: 10px 0;
-      font-size: 20px;
-    }
-
-    .ai-card p{
-      font-size: 14px;
-      line-height: 1.6;
-    } */
-
-
-    .container:hover {
-      transform: scale(1.05);
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
-
-    .redirect-button {
-      display: inline-block;
-      background-color: #0087b3;
-      color: #fff;
-      text-decoration: none;
-      outline: none;
-      padding: 8px 16px;
-      border-radius: 5px;
-    }
-
-    .redirect-button:hover {
-      background-color: #005d80;
-    }
-
-    .row {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  </style>
 <body>
-  <!-- Template 1 - Blue Gradient -->
-  <div class="container" style="background: linear-gradient(135deg, #00a8e8, #0087b3);">
-    <div class="ai-card">
-      <h2>AI Name 1</h2>
-      <p>Description of what it does.</p>
-      <a href="#" class="redirect-button" style="background-color: #0087b3;">Redirect</a>
-    </div>
-  </div>
-
-  <!-- Template 2 - Purple Gradient -->
-  <div class="container" style="background: linear-gradient(135deg, #9b59b6, #8e44ad);">
-    <div class="ai-card">
-      <h2>AI Name 2</h2>
-      <p>Description of what it does.</p>
-      <a href="#" class="redirect-button" style="background-color: #8e44ad;">Redirect</a>
-    </div>
-  </div>
-
-  <!-- Template 3 - Green Gradient -->
-  <div class="container" style="background: linear-gradient(135deg, #2ecc71, #27ae60);">
-    <div class="ai-card">
-      <h2>AI Name 3</h2>
-      <p>Description of what it does.</p>
-      <a href="#" class="redirect-button" style="background-color: #27ae60;">Redirect</a>
-    </div>
-  </div>
-
-  <!-- Template 4 - Red Gradient -->
-  <div class="container" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">
-    <div class="ai-card">
-      <h2>AI Name 4</h2>
-      <p>Description of what it does.</p>
-      <a href="#" class="redirect-button" style="background-color: #c0392b;">Redirect</a>
-    </div>
-  </div>
-
-  <!-- Template 5 - Orange Gradient -->
-  <div class="container" style="background: linear-gradient(135deg, #e67e22, #d35400);">
-    <div class="ai-card">
-      <h2>AI Name 5</h2>
-      <p>Description of what it does.</p>
-      <a href="#" class="redirect-button" style="background-color: #d35400;">Redirect</a>
-    </div>
-  </div>
-
-  <!-- Template 6 - Teal Gradient -->
-  <div class="container" style="background: linear-gradient(135deg, #1abc9c, #16a085);">
-    <div class="ai-card">
-      <h2>AI Name 6</h2>
-      <p>Description of what it does.</p>
-      <a href="#" class="redirect-button" style="background-color: #16a085;">Redirect</a>
-    </div>
-  </div>
-
-  <!-- Template 7 - Pink Gradient -->
-  <div class="container" style="background: linear-gradient(135deg, #e91e63, #c2185b);">
-    <div class="ai-card">
-      <h2>AI Name 7</h2>
-      <p>Description of what it does.</p>
-      <a href="#" class="redirect-button" style="background-color: #c2185b;">Redirect</a>
-    </div>
-  </div>
-
-  <!-- Template 8 - Yellow Gradient -->
-  <div class="container" style="background: linear-gradient(135deg, #f1c40f, #f39c12);">
-    <div class="ai-card">
-      <h2>AI Name 8</h2>
-      <p>Description of what it does.</p>
-      <a href="#" class="redirect-button" style="background-color: #f39c12;">Redirect</a>
-    </div>
-  </div>
-
-  <!-- Template 9 - Dark Blue Gradient -->
-  <div class="container" style="background: linear-gradient(135deg, #2980b9, #34495e);">
-    <div class="ai-card">
-      <h2>AI Name 9</h2>
-      <p>Description of what it does.</p>
-      <a href="https://www.google.com" target="_blank" class="redirect-button" style="background-color: #34495e;">Redirect</a>
-    </div>
-  </div>
-
-  <!-- Template 10 - Dark Green Gradient -->
-  <div class="container" style="background: linear-gradient(135deg, #2c3e50, #27ae60);">
-    <div class="ai-card">
-      <h2>AI Name 10</h2>
-      <p>Description of what it does.</p>
-      <a href="#" class="redirect-button" style="background-color: #27ae60;">Redirect</a>
-    </div> -->
-  <!-- </div>
-
+    <div class="wrapper">
+        <h1>ALL AI TOOLS</h1>
+        <div class="container">
+            <div class="box" id="box1">
+                <h2>PICTORIA.AI</h2>
+                <p> Creating Videos And Subtitles </p>
+                <a href="https://accounts.forefront.ai/sign-in?after_sign_in_url=https%3A%2F%2Fchat.forefront.ai%2F&after_sign_up_url=https%3A%2F%2Fchat.forefront.ai%2F&redirect_url=https%3A%2F%2Fchat.forefront.ai%2F" target="_blank" class="redirect-button" style="background-color: #0087b3;">Go To Website</a>
+            </div>
+            <div class="box" id="box2">
+                <h2>Elevenlabs.ai</h2>
+                <p>Voice Coloning</p>
+                <a href="https://elevenlabs.io/" target="_blank" class="redirect-button" style="background-color: #8e44ad;">go to website</a>
+            </div>
+            <div class="box" id="box3">
+                <h2>Lachief.io</h2>
+                <p>Find Best Latest AI Tools And Websites</p>
+                <a href="https://lachief.io/" target="_blank" class="redirect-button" style="background-color: #2ecc71;">go to website</a>
+            </div>
+            <div class="box" id="box4">
+                <h2>Soundraw.io</h2>
+               <p> Royality Free Music</p>
+                <a href="https://soundraw.io/" target="_blank" class="redirect-button" style="background-color: #e74c3c;">Go To Website</a>
+            </div>
+            <div class="box" id="box5">
+                <h2>synthesia.io</h2>
+                <p> Creating AI Avtar</p>
+                <a href="https://www.synthesia.io/" target="_blank" class="redirect-button" style="background-color: #e67e22;">Go To Website</a>
+            </div>
+            <div class="box" id="box6">
+                <h2>Cardgenerator.io</h2>
+                <p>Creating Credit Cards</p>
+                <a href="https://cardgenerator.io/" target="_blank" class="redirect-button" style="background-color: #1abc9c;">Go To Website</a>
+            </div>
+            <div class="box" id="box7">
+                <h2>leaiapix converter</h2>
+                <p>Creating 3D GIFs</p>
+                <a href="https://convert.leiapix.com/#error=login_required&state=0f91815c-1003-4838-8375-b43fea32528f" target="_blank" class="redirect-button" style="background-color: #ffcf81;">Go To Website</a>
+            </div>
+            <div class="box" id="box8">
+                <h2>voicemod.ai</h2>
+                <p>Creating Audio And Voice Changer</p>
+                <a href="https://www.voicemod.net/" class="redirect-button" target="_blank" style="background-color: #2980b9;">Go To Website</a>
+            </div>
+            <div class="box" id="box9">
+                <h2>looka.ai</h2>
+                <p>Logo And Brand Identity</p>
+                <a href="https://looka.com/" class="redirect-button" target="_blank" style="background-color: #e91e63;">Go To Website</a>
+            </div>
+            <div class="box" id="box10">
+                <h2>Chatgpt</h2>
+                <p>Solve Anything</p>
+                <a href="https://chat.openai.com/" target="_blank" class="redirect-button" style="background-color: #2c3e50;">Go To Website</a>
+            </div>
+            <div class="box" id="box11">
+                <h2>Stunning.so</h2>
+                <p>Creating Website</p>
+                <a href="https://stunning.so/" target="_blank" class="redirect-button" style="background-color: #3c638a;">Go To Website</a>
+            </div>
+            <div class="box" id="box12">
+                <h2>Text2SQL.ai</h2>
+                <p>SQL Text</p>
+                <a href="https://www.text2sql.ai/" target="_blank" class="redirect-button" style="background-color: #b90541;">Go To Website</a>
+            </div>
+            </div>
+            </div>
 </body>
-
 </html>
