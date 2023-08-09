@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -24,6 +24,7 @@ h1{
      display: grid;
       gap: 15px;
       grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+
       transition: transform 0.3s ease, box-shadow 0.3s ease; 
 
 }
@@ -32,7 +33,12 @@ h1{
     padding: 20px;
     text-align: center;
     border-radius: 5px;
-    /* background: linear-gradient(135deg, #00a8e8, #0087b3); */
+    box-shadow: 0px 5px 10px black;
+.box{
+    height: 170px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
     box-shadow: 0px 5px 10px black;
   }
 #box{
@@ -95,6 +101,151 @@ h1{
     box-shadow: 0px 5px 10px black;
   }
 
-  @media
+  @media */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7e76af;
+}
+
+.wrapper {
+    margin: 10px auto;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+h1 {
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 15px;
+    text-shadow: 0 5px 10px black;
+}
+
+.container {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.box {
+    height: 190px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    text-shadow: 0 5px 10px black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
 
+.box h2 {
+    /* color: #444; */
+    padding: 10px 0;
+    font-size: 20px;
+
+}
+
+.box p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#box1 {
+    background: linear-gradient(135deg, #00a8e8, #0087b3);
+}
+
+#box2 {
+    background: linear-gradient(135deg, #9b59b6, #8e44ad);
+}
+
+#box3 {
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+}
+
+#box4 {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+}
+
+#box5 {
+    background: linear-gradient(135deg, #e67e22, #d35400);
+}
+
+#box6 {
+    background: linear-gradient(135deg, #1abc9c, #16a085);
+}
+
+#box7 {
+    background: linear-gradient(135deg, #f1c40f, #ffcf81)
+}
+
+#box8 {
+    background: linear-gradient(135deg, #2980b9, #3c638a)
+}
+
+#box9 {
+    background: linear-gradient(135deg, #e91e63, #c2185b)
+}
+
+#box10 {
+    background: linear-gradient(135deg, #2c3e50, #27ae60)
+}
+
+#box11 {
+    background: linear-gradient(135deg, #1abc9c, #705ed8);
+
+}
+
+#box12 {
+    background: linear-gradient(135deg, #b90541, #e24c88)
+}
+
+/* .redirect-button {
+    text-decoration: none;
+    font-size: 20px;
+} */
+
+.redirect-button {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 10px 20px;
+    background-color:#fff;
+    color: #4ECDC4; /* Change the button color as per your preference */
+    border-radius: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    position: relative;
+  }
+  .redirect-button:hover {
+    color: #88a2be; Change the hover color as per your preference
+    background-color: Blue;
+    /* background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23ffffff" viewBox="0 0 16 16"><path d="M5.354 2.646a.5.5 0 0 1 .793.195L8 5.293l1.853-2.452a.5.5 0 0 1 .793-.195l.658.658a.5.5 0 0 1 .195.793l-3 4a.5.5 0 0 1-.39.195h-.319a.5.5 0 0 1-.39-.195l-3-4a.5.5 0 0 1 .195-.793l.658-.658z"/></svg>'); */
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 25px;
+    
+  }
+  .redirect-button:hover::after {
+    font-family: "Font Awesome 6 Solid"; /* Font Awesome Solid style */
+    content: "\f178"; /* Unicode of the arrow-right icon */
+    margin-left: 10px;
+    color: #fff;
+    opacity: 1;
+  right: 0; 
+  animation: slideInArrow 0.3s forwards;
+  }
+  
+  @keyframes slideInArrow {
+    to {
+      right: 5px; /* Slide the arrow icon to the final position */
+      opacity: 1;
+    }
+  }
