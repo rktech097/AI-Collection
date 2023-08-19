@@ -207,6 +207,18 @@ h1 {
 #box12 {
     background: linear-gradient(135deg, #b90541, #e24c88)
 }
+#box13 {
+    background: linear-gradient(135deg, #1771cb, #4398e3)
+}
+#box14 {
+    background: linear-gradient(135deg, #a668c0, #ca36a2)
+}
+#box15 {
+    background: linear-gradient(135deg, #033163, #1329bb)
+}
+#box16 {
+    background: linear-gradient(135deg, #1ec86d, #94e2cd)
+}
 
 /* .redirect-button {
     text-decoration: none;
